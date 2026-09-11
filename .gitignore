@@ -1,0 +1,23 @@
+# --- Kredensial & Secrets (SANGAT PENTING) ---
+.env
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# --- Virtual Environment Python ---
+venv/
+env/
+.venv/
+
+# --- File Cache & Bytecode Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- File Sistem Operasi (Mac/Windows) ---
+.DS_Store
+Thumbs.db
+
+# --- Pengaturan Text Editor/IDE ---
+.vscode/
+.idea/
