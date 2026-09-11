@@ -1,34 +1,34 @@
 # ⚖️ Indonesian Legal Text Simplifier
 
-Alat bantu berbasis Claude API untuk menerjemahkan pasal, putusan, dan dokumen hukum Indonesia yang padat menjadi bahasa awam yang mudah dipahami — dibangun sebagai proyek portofolio untuk **Claude Campus Ambassador (Builder Club track)**.
+An AI-powered tool built on the Claude API that translates dense Indonesian legal articles, court rulings, and documents into plain, easy-to-understand language — built as a portfolio project for **Claude Campus Ambassador (Builder Club track)**.
 
-## Kenapa proyek ini dibuat
+## Why this project exists
 
-Sebagai mahasiswa Hukum Bisnis, saya sering menghabiskan waktu lama untuk memahami pasal dan putusan yang ditulis dalam bahasa hukum yang padat. Saya mulai menggunakan Claude untuk membantu membedah teks-teks itu ke bahasa sehari-hari — dan proyek ini adalah otomatisasi dari kebiasaan itu, supaya mahasiswa lain (khususnya di luar jurusan hukum) juga bisa memahami teks hukum tanpa perlu bertanya ke siapa pun.
+As a Business Law student, I often spent a lot of time trying to understand articles and rulings written in dense legal language. I started using Claude to help break those texts down into everyday language — and this project automates that habit, so other students (especially those outside law) can understand legal text without having to ask anyone.
 
-## Fitur
+## Features
 
-* **Analisis Live** — tempelkan pasal/putusan apa pun, dapatkan hasil dari Claude API secara real-time.
-* **Pilihan Model** — bisa memilih antara Sonnet 5 atau Haiku 4.5, sesuai kebutuhan kecepatan/kedalaman analisis.
-* **Mode Demo (tanpa API Key)** — untuk yang ingin mencoba cepat tanpa memasukkan API key, tersedia contoh hasil analisis nyata (bukan ditulis manual) dari Pasal 1365 KUHPerdata.
-* **Output 3 Tab** — Inti Sederhana, Glosarium Istilah, dan Dampak \& Implikasi.
-* **Ekspor Hasil** — unduh hasil analisis dalam format `.txt`.
+* **Live Analysis** — paste any article or ruling and get a real-time result from the Claude API.
+* **Model Choice** — pick between Sonnet 5 or Haiku 4.5, depending on your need for speed vs. depth of analysis.
+* **Demo Mode (no API key needed)** — for a quick try without an API key, includes a real (not hand-written) example analysis of Article 1365 of the Indonesian Civil Code.
+* **3-Tab Output** — Plain Summary, Glossary of Terms, and Impact & Implications.
+* **Export Results** — download the analysis as a `.txt` file.
 
-## Cara Menjalankan
+## How to Run
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Masukkan Claude API key kamu sendiri di sidebar (dapatkan di [console.anthropic.com](https://console.anthropic.com)), atau klik **"Jalankan Mode Demo"** untuk melihat contoh hasil tanpa perlu API key.
+Enter your own Claude API key in the sidebar (get one at [console.anthropic.com](https://console.anthropic.com)), or click **"Run Demo Mode"** to see a sample result without needing an API key.
 
-## Dibangun dengan
+## Built With
 
-* [Streamlit](https://streamlit.io) — antarmuka web
-* [Claude API](https://www.anthropic.com) (Anthropic) — analisis teks hukum
+* [Streamlit](https://streamlit.io) — web interface
+* [Claude API](https://www.anthropic.com) (Anthropic) — legal text analysis
 
-## Catatan
+## Notes
 
-Proyek ini dibuat dalam waktu terbatas sebagai bukti eksplorasi teknis untuk aplikasi Claude Campus Ambassador, oleh mahasiswa Hukum Bisnis (Universitas Negeri Makassar) yang sedang mempertimbangkan transisi ke bidang AI/engineering. Rencana pengembangan lanjutan: dukungan upload PDF untuk dokumen hukum lengkap, bukan hanya teks yang ditempel manual.
+This project was built within a limited timeframe as a technical exploration for the Claude Campus Ambassador application, by a Business Law student (Universitas Negeri Makassar) considering a transition into AI/engineering. Planned next step: support for uploading full PDF legal documents instead of only pasted text.
 
